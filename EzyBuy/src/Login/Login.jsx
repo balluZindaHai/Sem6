@@ -16,7 +16,7 @@ function Login(){
             e.preventDefault()
 
             if (!email) {
-                enqueueSnackbar('Please enter your email',{
+                enqueueSnackbar('PleaSe enter your email',{
                     variant: 'error',
                     anchorOrigin:{
                         vertical: 'top',
