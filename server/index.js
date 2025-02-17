@@ -16,7 +16,7 @@ app.post('/Login', (req,res) =>{
              {
                     if(user.password === password)
                     {
-                        res.json("Welcom");
+                        res.json("Welcome");
                     }
                     else
                     {
@@ -35,5 +35,5 @@ app.post('/reg' ,(req,res) =>{
     .catch(err => res.json(err))
 })
 app.listen(3001, ()=> {
-    console.log("Server is running on port 3001");
+    console.log("Server is running on ports 3001");
 })
