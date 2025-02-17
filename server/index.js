@@ -16,7 +16,7 @@ app.post('/Login', (req,res) =>{
              {
                     if(user.password === password)
                     {
-                        res.json("Welcome");
+                        res.json("Welcom");
                     }
                     else
                     {
