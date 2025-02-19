@@ -44,7 +44,7 @@ function Reg(){
                 });
                 return;
             }
-            axios.post('http://localhost:3001/reg', {name , email , password })
+            axios.post('http://localhost:3001/auth/signup', {name , email , password })
             .then(result => console.log(result))
             .catch(error => console.log(error))
             navigate('/Login')
